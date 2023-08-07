@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "./images/bang.jpg",
+    "category": "strategy",
+    "price": "₺ 419,90",
+    "title": "BANG!",
+    "description": "Dünyanın en çok satan vahşi batı temalı kovboy oyunu!",
+    "prop": "4-7 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 2,
+    "image": "./images/catan.jpg",
+    "category": "strategy",
+    "price": "₺ 1.589,90",
+    "title": "Catan",
+    "description": "Köylerinizi inşa edin, gelirlerinizi toplayın, ticaret yapın. Medeniyetinizi hızlı şekilde geliştirin ve oyunu kazanın!",
+    "prop": "3-4 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 3,
+    "image": "./images/direnis.jpg",
+    "category": "party",
+    "price": "₺ 359,90",
+    "title": "Direniş",
+    "description": "Özgürlüğünüzü kazanmak için Direniş takımıyla birlikte savaşmaya hazır mısınız?",
+    "prop": "5-10+ Kişi / 15-30 dk / 13+"
+  },
+  {
+    "id": 4,
+    "image": "./images/entrika.jpg",
+    "category": "party",
+    "price": "₺ 279,90",
+    "title": "Entrika Plus",
+    "description": "Blöf ve entrikalarla dolu bir mücadele, darbeyi gerçekleştirebilen lider kim olacak?",
+    "prop": "2-8 Kişi / 15 dk / 13+"
+  },
+  {
+    "id": 5,
+    "image": "./images/kayipdiyarlar.jpg",
+    "category": "family",
+    "price": "₺ 689,90",
+    "title": "Kayıp Diyarlar",
+    "description": "Kayıp Diyarların fantastik dünyasında yerinizi alın. En çok toprağa siz hükmedin!",
+    "prop": "2-4 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 6,
+    "image": "./images/lanetliada.jpg",
+    "category": "cooperative",
+    "price": "₺ 519,90",
+    "title": "Lanetli Ada",
+    "description": "Lanetli Ada’daki 4 büyülü hazineyi elde edip Ada’dan canlı bir şekilde takım olarak ayrılabilecek misiniz?",
+    "prop": "2-4 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 7,
+    "image": "./images/munchkin.jpg",
+    "category": "party",
+    "price": "₺ 419,90",
+    "title": "Munchkin",
+    "description": "Zindana inin. Kapıyı tekmeleyin. Önünüze çıkan bütün canavarları öldürün. Hazineyi kapın ve hemen kaçın",
+    "prop": "3-6 Kişi / 60-120 dk / 16+"
+  },
+  {
+    "id": 8,
+    "image": "./images/otokrat.jpg",
+    "category": "family",
+    "price": "₺ 369,90",
+    "title": "Otokrat",
+    "description": "Şehrinizin kaderi sizin ellerinizde!",
+    "prop": "2-4 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 9,
+    "image": "./images/ticket.jpg",
+    "category": "strategy",
+    "price": "₺ 1.929,90",
+    "title": "Ticket To Ride Europe",
+    "description": "Avrupanın en büyük demiryolu patronu siz olun!",
+    "prop": "2-5 Kişi / 30-60 dk / 8+"
+  },
+  {
+    "id": 10,
+    "image": "./images/wingspan.jpg",
+    "category": "strategy",
+    "price": "₺ 2.199,90",
+    "title": "Wingspan",
+    "description": "Rekabete dayalı, stratejik, 2019’un en iyi kutu oyunu!",
+    "prop": "1-5 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 11,
+    "image": "./images/yama.jpg",
+    "category": "family",
+    "price": "₺ 854,90",
+    "title": "Yamalı Yorgan",
+    "description": "En iyi kumaşları seçin, yeteneklerinizi sergileyin ve en sanatsal yorganı siz dikin!",
+    "prop": "2-2 Kişi / 30-60 dk / 8+"
+  },
+  {
+    "id": 12,
+    "image": "./images/carcassone.jpg",
+    "category": "strategy",
+    "price": "₺ 999,90",
+    "title": "Carcassone",
+    "description": "Carcassonne şehrini kurun ve piyonlarınızı şövalye, keşiş, haydut veya çiftçi yaparak en stratejik şekilde değerlendirin!",
+    "prop": "2-5 Kişi / 30-60 dk / 8+"
+  },
+  {
+    "id": 13,
+    "image": "./images/pandemic.jpg",
+    "category": "cooperative",
+    "price": "₺ 1.379,90",
+    "title": "Pandemic",
+    "description": "Salgınlar ve epidemiler hastalıkları körüklerken zamanınız gittikçe azalıyor. Dört virüsün aşısını zamanında bulabilecek misiniz?",
+    "prop": "2-4 Kişi / 30-60 dk / 8+"
+  },
+  {
+    "id": 14,
+    "image": "./images/wonders.jpg",
+    "category": "family",
+    "price": "₺ 1.799,90",
+    "title": "7 Wonders",
+    "description": "Antik dönemin Efes, Olimpos ya da Babil gibi en etkileyici 7 şehrinden birini yönetmeye hazır mısınız?",
+    "prop": "2-7 Kişi / 30-60 dk / 10+"
+  },
+  {
+    "id": 15,
+    "image": "./images/spyfall.jpg",
+    "category": "party",
+    "price": "₺ 574,90",
+    "title": "Spyfall",
+    "description": "Spyfall herkese gerçek bir ajanlık tecrübesi yaşatacak!",
+    "prop": "4-8 Kişi / 15 dk / 13+"
+  },
+  {
+    "id": 16,
+    "image": "./images/risk.jpg",
+    "category": "family",
+    "price": "₺ 749,90",
+    "title": "Risk",
+    "description": "Gizli hedefinizi takip edin ve ordularınızla dünyanın hakimiyetini ele geçirin!",
+    "prop": "2-5 Kişi / 120-140 dk / 10+"
+  }
+]

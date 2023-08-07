@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/d651324be1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!------------------------- NAVBAR ------------------------>
+    <nav class="navbar navbar-expand-lg fs-5" style="background-color: #f1eeec">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a
+                style="color: rgba(44, 187, 99, 0.626)"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="home"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                style="color: rgba(44, 187, 99, 0.626)"
+                href="#"
+                >İletişim</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                style="color: rgba(44, 187, 99, 0.626)"
+                class="nav-link"
+                href="#"
+                >Hakkımızda</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                style="color: rgba(44, 187, 99, 0.626)"
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ürünler
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    id="aile"
+                    style="color: rgba(44, 187, 99, 0.626)"
+                    class="dropdown-item"
+                    href="#"
+                    >Aile</a
+                  >
+                </li>
+                <li>
+                  <a
+                    id="strateji"
+                    style="color: rgba(44, 187, 99, 0.626)"
+                    class="dropdown-item"
+                    href="#"
+                    >Strateji</a
+                  >
+                </li>
+                <li>
+                  <a
+                    id="parti"
+                    style="color: rgba(44, 187, 99, 0.626)"
+                    class="dropdown-item"
+                    href="#"
+                    >Parti</a
+                  >
+                </li>
+                <li>
+                  <a
+                    id="co-op"
+                    style="color: rgba(44, 187, 99, 0.626)"
+                    class="dropdown-item"
+                    href="#"
+                    >Kooperatif</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              id="srchBtn"
+              class="form-control me-2"
+              type="search"
+              placeholder="Ara"
+              aria-label="Search"
+            />
+            <button
+              style="color: rgba(44, 187, 99, 0.626)"
+              class="btn"
+              type="submit"
+            >
+              Ara
+            </button>
+          </form>
+          <div class="sepet">
+            <i
+              style="color: rgba(44, 187, 99, 0.626)"
+              id="cartBtn"
+              class="fa-solid fa-basket-shopping"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!----------CARDS------------------>
+    <div id="mainContainer" class="container-fluid d-flex flex-column">
+      <div class="container">
+        <div id="mainContent" class="row justify-content-evenly"></div>
+      </div>
+
+      <!-------------------SEPET ----------------->
+      <div class="cart">
+        <h2>Sepetim</h2>
+      </div>
+      <!-------------------SLIDER --------------->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <h1 style="align-self: flex-start">En Çok Satanlar</h1>
+        <div class="carousel-inner">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-item active">
+            <img src="images/wondersCom.jpg" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>7 Wonders</h5>
+              <p>
+                Antik dönemin Efes, Olimpos ya da Babil gibi en etkileyici 7
+                şehrinden birini yönetmeye hazır mısınız?
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carcassoneCom.jpg" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Carcassone</h5>
+              <p>
+                Carcassonne şehrini kurun ve piyonlarınızı şövalye, keşiş,
+                haydut veya çiftçi yaparak en stratejik şekilde değerlendirin!
+                10 milyon satış barajını aşan kült oyun!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/catanCom.jpg" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Catan</h5>
+              <p>
+                Köylerinizi inşa edin, gelirlerinizi toplayın, ticaret yapın.
+                Medeniyetinizi hızlı şekilde geliştirin ve oyunu kazanın!
+                Dünyada 40 dilde yayınlandı 30 milyondan fazla satıldı!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <i class="fa-solid fa-chevron-left fa-rotate-180"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--------------FIRSATLAR--------------->
+      <div class="firsatlar">
+        <div class="innerFirsat">
+          <h1>Öne Çıkanlar</h1>
+          <div class="contentFirsat">
+            <img src="images/ejder.jpg" alt="ejder" />
+            <div class="textFirsat">
+              <h3>Ejder Avcıları</h3>
+              <h5>₺ 449,90</h5>
+            </div>
+          </div>
+          <div class="contentFirsat">
+            <img src="images/kesif.jpg" alt="kesif" />
+            <div class="textFirsat">
+              <h3>Keşif Gezegen 9 Görevi</h3>
+              <h5>₺ 479,90</h5>
+            </div>
+          </div>
+          <div class="contentFirsat">
+            <img src="images/marvel.jpg" alt="marvel" />
+            <div class="textFirsat">
+              <h3>Marvel Champions</h3>
+              <h5>₺ 1.829,90</h5>
+            </div>
+          </div>
+        </div>
+        <div class="innerFirsat">
+          <h1>Yeni Eklenenler</h1>
+          <div class="contentFirsat">
+            <img src="images/cascadia.jpg" alt="" />
+            <div class="textFirsat">
+              <h3>Cascadia</h3>
+              <h5>₺ 999,90</h5>
+            </div>
+          </div>
+          <div class="contentFirsat">
+            <img src="images/epik.jpg" alt="" />
+            <div class="textFirsat">
+              <h3>Epik Büyü Savaşları – 2</h3>
+              <h5>₺ 599,90</h5>
+            </div>
+          </div>
+          <div class="contentFirsat">
+            <img src="images/subterra.jpg" alt="" />
+            <div class="textFirsat">
+              <h3>Sub Terra</h3>
+              <h5>₺ 759,90</h5>
+            </div>
+          </div>
+        </div>
+        <div class="innerFirsat">
+          <h1>Yüksek Puanlılar</h1>
+          <div class="contentFirsat">
+            <img src="images/mars.jpg" alt="" />
+            <div class="textFirsat">
+              <h3>Terraforming Mars</h3>
+              <h5>₺ 1.929,90</h5>
+            </div>
+          </div>
+          <div class="contentFirsat">
+            <img src="images/gulyabani.jpg" alt="" />
+            <div class="textFirsat">
+              <h3>Gulyabani Plus</h3>
+              <h5>₺ 219,90</h5>
+            </div>
+          </div>
+          <div class="contentFirsat">
+            <img src="images/jungle.jpg" alt="" />
+            <div class="textFirsat">
+              <h3>Jungle Speed</h3>
+              <h5>₺ 609,90</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------FOOTER -------------------->
+    <div class="footer">
+      <div class="innerFooter">
+        <h4>Anasayfa</h4>
+        <h4>Hakkımızda</h4>
+        <h4>İletişim</h4>
+        <h4>Sıkça Sorulan Sorular</h4>
+      </div>
+      <div class="innerFooter">
+        <h4>Hepsi</h4>
+        <h4>Aile</h4>
+        <h4>Strateji</h4>
+        <h4>Parti</h4>
+        <h4>Kooperatif</h4>
+      </div>
+      <div class="innerFooter">
+        <h4>Sipariş Takibi</h4>
+        <h4>Havale Bilgileri</h4>
+        <h4>Ödeme Seçenekleri</h4>
+        <h4>Teslimat ve İade</h4>
+        <h4>Gizlilik ve Kullanım Şartları</h4>
+      </div>
+      <div id="social" class="innerFooter">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
